@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/list_selector"
+	android:gravity="center_vertical"
+	android:minHeight="62dip"
+	android:orientation="vertical"
+	android:paddingLeft="14dip"
+	android:paddingRight="14dip" >
+
+	<com.kmshack.BusanBus.view.SizeableTextView
+		android:id="@+id/text1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="#333"
+		android:textStyle="bold" />
+
+	<com.kmshack.BusanBus.view.SizeableTextView
+		android:id="@+id/text2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="#333" />
+
+</LinearLayout>
